@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Rockwell Extra Bold";
+  src: 'images/Rockwell_Extra_Bold.ttf';
+}
+
+body {
+  background-color: #f33014;
+  color: white;
+  font-family: arial;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #f33014;
+  background-color: white; 
+}
+
+
+
+#container {
+  width: 657px;
+  margin: 0 auto;
+}
+
+header #logo {
+  height: 100px;
+}
+
+header #logo img {
+  text-align: left;
+} 
+
+header #logo p {
+  margin-top: 10px;
+  float: right;
+  width: 209px;
+  text-align: right;
+}
+
+header h1 {
+  border-style: solid;
+  border-width: 10px 0px 10px 0px;
+  border-color: white;
+  font-family: "Rockwell Extra Bold";
+  font-size: 43px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#menu {
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0px;
+  width: 100%;
+}
+
+#menu li {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 19%;
+  text-align: center;
+}
+
+#menu li:hover,
+#menu li.selected,
+#menu li:hover a,
+#menu li.selected a {
+  color: #f33014;
+  background-color: white; 
+}
+
+
+
+#intro-video {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+#intro-controls {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+p {
+  margin-bottom: 1em;
+}
